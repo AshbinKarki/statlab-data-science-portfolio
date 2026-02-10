@@ -1,0 +1,5 @@
+{
+  "name": "StatLab: Data Science Portfolio Builder",
+  "description": "A comprehensive statistical analysis dashboard that generates synthetic datasets, performs key statistical tests (Hypothesis testing, Regression, Correlation), and visualizes distributions. Designed for aspiring data scientists to demonstrate core competencies.",
+  "requestFramePermissions": []
+}
