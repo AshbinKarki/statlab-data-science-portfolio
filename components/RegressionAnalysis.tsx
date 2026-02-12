@@ -39,9 +39,9 @@ const RegressionAnalysis: React.FC<RegressionAnalysisProps> = ({ data }) => {
     const correlation = calculateCorrelation(xVals, yVals);
     const rSquared = Math.pow(correlation, 2);
 
-    // Generate line points for chart
     const minX = Math.min(...xVals);
     const maxX = Math.max(...xVals);
+    
     const lineData = [
       { x: minX, y: slope * minX + intercept },
       { x: maxX, y: slope * maxX + intercept }
